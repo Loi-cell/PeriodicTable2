@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:layout_gravity="center"
+
+
+    
+
+    android:background="@drawable/bg"
+    android:fadingEdge="none">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="372dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="84dp"
+            android:gravity="center_horizontal"
+            android:text="@string/periodex"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.432"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button_hydrogen"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="52dp"
+            android:backgroundTint="@color/red"
+            android:text="@string/h"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.089"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button_helium"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="52dp"
+            android:backgroundTint="@color/red"
+            android:text="@string/he"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.183"
+            app:layout_constraintStart_toEndOf="@+id/button_hydrogen"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+
+            />
+
+        <Button
+            android:id="@+id/button_Lithium"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="52dp"
+            android:backgroundTint="@color/red"
+            android:text="@string/li"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.844"
+            app:layout_constraintStart_toEndOf="@+id/button_hydrogen"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+
+            />
+
+        <Button
+            android:id="@+id/button_Beryllium"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="172dp"
+            android:backgroundTint="@color/red"
+            android:text="Be"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.091"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button_Nitrogen"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="280dp"
+            android:text="N"
+            android:backgroundTint="@color/yellow"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.091"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button_Neon"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="384dp"
+            android:text="Ne"
+            android:backgroundTint="@color/yellow"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.089"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button_Aluminum"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="492dp"
+            android:text="Al"
+            android:backgroundTint="@color/yellow"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.089"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button_Sulfur"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="600dp"
+            android:text="S"
+            android:backgroundTint="@color/yellow"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.089"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button_Potassium"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="708dp"
+            android:text="K"
+            android:backgroundTint="@color/red"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.089"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button_Titanium"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="816dp"
+            android:backgroundTint="@color/blue"
+            android:text="Ti"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.089"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button_Manganese"
+            android:layout_width="83dp"
+            android:backgroundTint="@color/blue"
+            android:layout_height="83dp"
+            android:layout_marginTop="924dp"
+            android:text="Mn"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.089"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button_Nickel"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="1032dp"
+            android:backgroundTint="@color/blue"
+            android:text="Ni"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.089"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button_Boron"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="172dp"
+            android:backgroundTint="@color/yellow"
+            android:text="B"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.183"
+            app:layout_constraintStart_toEndOf="@+id/button_hydrogen"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button_Oxygen"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="280dp"
+            android:text="O"
+            android:backgroundTint="@color/yellow"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.183"
+            app:layout_constraintStart_toEndOf="@+id/button_hydrogen"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button_Sodium"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="384dp"
+            android:text="Na"
+            android:backgroundTint="@color/red"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.183"
+            app:layout_constraintStart_toEndOf="@+id/button_hydrogen"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button_Silicon"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="492dp"
+            android:textColor="@color/black"
+            android:text="Si"
+            android:backgroundTint="@color/yellow"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.183"
+            app:layout_constraintStart_toEndOf="@+id/button_hydrogen"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button_Chlorine"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="600dp"
+            android:text="Cl"
+            android:backgroundTint="@color/yellow"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button_Calcium"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="708dp"
+            android:text="Ca"
+            android:backgroundTint="@color/red"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button_Vanadium"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="816dp"
+            android:backgroundTint="@color/blue"
+            android:text="V"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button_Iron"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="924dp"
+            android:backgroundTint="@color/blue"
+            android:text="Fe"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button_Copper"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="1032dp"
+            android:backgroundTint="@color/blue"
+            android:text="Cu"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button_Carbon"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="172dp"
+            android:text="C"
+            android:backgroundTint="@color/yellow"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.844"
+            app:layout_constraintStart_toEndOf="@+id/button_hydrogen"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button_Fluorine"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="280dp"
+            android:text="F"
+            android:backgroundTint="@color/yellow"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.844"
+            app:layout_constraintStart_toEndOf="@+id/button_hydrogen"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button_Magnesium"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="384dp"
+            android:text="Mg"
+            android:backgroundTint="@color/red"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.844"
+            app:layout_constraintStart_toEndOf="@+id/button_hydrogen"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button_Phosphorus"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="492dp"
+            android:text="P"
+            android:backgroundTint="@color/yellow"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.844"
+            app:layout_constraintStart_toEndOf="@+id/button_hydrogen"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button_Argon"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="600dp"
+            android:text="Ar"
+            android:backgroundTint="@color/yellow"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.844"
+            app:layout_constraintStart_toEndOf="@+id/button_hydrogen"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button_Scandium"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="708dp"
+            android:text="Sc"
+            android:backgroundTint="@color/blue"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.844"
+            app:layout_constraintStart_toEndOf="@+id/button_hydrogen"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button_Chromium"
+            android:textColor="@color/black"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="816dp"
+            android:backgroundTint="@color/blue"
+            android:text="Cr"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.844"
+            app:layout_constraintStart_toEndOf="@+id/button_hydrogen"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button_Cobalt"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="924dp"
+            android:backgroundTint="@color/blue"
+            android:text="Co"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.844"
+            app:layout_constraintStart_toEndOf="@+id/button_hydrogen"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button_Zinc"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="1032dp"
+            android:backgroundTint="@color/blue"
+            android:text="Zn"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.844"
+            app:layout_constraintStart_toEndOf="@+id/button_hydrogen"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageButton
+            android:id="@+id/imageButton_mute"
+            android:layout_width="64dp"
+            android:layout_height="53dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.949"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_mute" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
